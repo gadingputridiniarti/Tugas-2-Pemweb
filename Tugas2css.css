@@ -1,0 +1,319 @@
+body{
+    font-family: 'Cambria';
+
+}
+.menupilih{
+    background-color : rgb(197, 146, 199);
+    width : 100%;
+    height : 10px;
+}
+/* Home*/
+.nama{
+    font-size: 120;
+    font-family: News706 BT;
+    vertical-align:top;
+    letter-spacing: 23px;
+    word-spacing: 25px;
+    color: rgb(146, 171, 199); 
+}
+    
+.line {
+    background: rgb(197, 146, 199);
+    width: 750px;
+    height: 8px;
+}
+.garis{
+    background: rgb(197, 146, 199);
+    width: 1410px;
+    height: 8px;
+}
+
+.deskripsi{
+    font-size: 18;
+    font-family: Cambria;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+.subtitle{
+    font-size: 85;
+    font-family: Franklin Gothic Heavy;
+    line-height: 100px;
+    word-spacing: 2px;
+    padding-left: 45px;
+    padding-left: 30px;
+    color: rgb(146, 171, 199);
+}
+
+.header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 3px;
+    color: black;
+    letter-spacing: 1px;
+    top:1px solid #000000; padding:5px; line-height: 40px;
+    text-align:middle; background-color: rgb(197, 146, 199);
+    padding : 20px;
+    padding-right: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Pendidikan */
+.pendidikan {
+    text-align: center;
+    background-color:rgb(197, 146, 199);
+    height: 1000px;
+    padding-top: 50px;
+}
+
+.cardSchool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kotak{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: black;
+    border: 2px solid;
+    padding: 15px;
+    
+    }
+.card {
+    color: black;
+    background-color: white;
+    margin-left: 40px;
+    min-height: 400px;
+    min-width: 300px;
+    max-width: 230px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #000000;
+    padding-top: 20px;
+    font-size: large;
+    margin: 60px;
+}
+
+.card h3 {
+    font-size: 24px;
+    line-height: 40px;
+    padding-top: 50px;
+}
+
+.card h4 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.card img {
+    width: 160px;
+    height: 160px;
+}
+
+
+/* Jadwal Kuliah */
+
+.kuliah {
+    background-color: rgb(146, 171, 199);
+    color: #fafafa;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.kuliah table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #978989;
+    background: rgb(172, 106, 140);
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr {
+    text-align: center;
+    padding-left: 15px;
+}
+
+table td {
+    font-size: 20px;
+    padding: 15px 24px;
+    border-top: 1px solid white;
+    border-bottom: 1px ;
+    border-left: 1px ;
+    background: white;
+}
+
+table th {
+    font-size: 32px;
+    padding: 15px 35px;
+    border-top: 1px ;
+    border-bottom: 1px ;
+    border-left: 1px ;
+    background: rgb(142, 65, 244);
+    color: white;
+}
+
+.title2{
+    font-size: 90;
+    font-family: Franklin Gothic Heavy;
+    line-height: 100px;
+    letter-spacing: 20px;
+    padding-left: 45px;
+    color: rgb(197, 146, 199);
+}
+
+.titlejdwl{
+    font-size: 90;
+    font-family: Franklin Gothic Heavy;
+    line-height: 100px;
+    letter-spacing: 20px;
+    padding-left: 45px;
+    color: rgb(197, 146, 199);
+}
+
+.header a :visited{
+    color: rgb(197, 146, 199);
+}
+
+.header a:hover{
+color:rgb(197, 146, 199);
+font-weight: bold;
+}
+.leftlinks{
+font-family: Cambria;
+word-spacing: 3px;
+letter-spacing: 1px;
+border:1px solid rgb(146, 171, 199); padding:5px; width: 200px; line-height: 40px;
+text-align:middle; background-color: rgb(197, 146, 199);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.leftlinks a{
+font-family: Cambria;
+word-spacing: 3px;
+letter-spacing: 1px;
+width: 200px; line-height: 40px;
+text-align:middle; background-color: black;
+color: #000000; text-decoration: none;
+}
+.leftlinks a:link{
+color: rgb(197, 146, 199);
+}
+.leftlinks a:visited{
+color: rgb(197, 146, 199);
+}
+.leftlinks a:hover {
+font-family: Cambria;
+word-spacing: 3px;
+letter-spacing: 1px;
+border:1px solid #000000; padding:5px; width: 200px; line-height: 40px;
+text-align:middle; background-color: #000000;
+color: white;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.footer{
+text-decoration: none;
+color: none;
+}
+
+.footer a{
+text-decoration: none;
+font-style: none;
+font-family: Cambria ;
+color: none;
+font-size: 18;
+align-content: right;
+line-height: 0px;
+opacity: 0;
+}
+
+.footer a:link{
+color: none;
+opacity: 0;
+}
+
+.footer a:visited{
+color: none;
+opacity: 0;
+}
+
+.footer a:hover{
+text-decoration: none;
+font-style: none;
+font-family: Cambria ;
+color: none;
+opacity: 0;
+}
+.title{
+font-size: 90;
+font-family: Franklin Gothic Heavy;
+line-height: 100px;
+letter-spacing: 20px;
+padding-left: 45px;
+color: rgb(146, 171, 199);
+}
+
+/* Aktivitas*/
+.jabatan{
+font-family: Cambria;
+font-size: 23px;
+font-weight: bold;
+text-align: left;
+padding: 10px;
+padding-left: 20px;
+letter-spacing: 3px;
+word-spacing: 5px;
+background-color: rgb(197, 146, 199);
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+}
+
+.deks{
+font-size: 18;
+font-family: Cambria;
+letter-spacing: 1px;
+word-spacing: 2px;
+padding-left: 20px;
+
+}
+
+/* Kontak */
+
+.kontakkiri{
+	font-family: Cambria;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 6px;
+	vertical-align: middle;
+	width: 200px;
+}
+
+.kontakkanan{
+	font-size: 20;
+	font-family: Cambria;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	padding : 20px;
+	border-spacing: 10px;
+	width: 200px;
+}
+
